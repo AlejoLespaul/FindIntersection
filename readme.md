@@ -1,6 +1,6 @@
 # Code Challenge: Find Intersection
 
-Tenemos la función FindIntersection(strArr) que lee un array con dos elementos: cada uno representa una lista de número ordenados y separados por comas. El desafío es devolver una lista de números separados por coma con los números que figuren en ambos elementos, en caso de no haber coincidencia se devolverá un string vacío.
+Tenemos la función FindIntersection(strArr) que lee un array con dos elementos: cada uno representa una lista de número ordenados y separados por comas. El desafío es devolver una lista de números separados por coma con los números que figuren en ambos elementos, en caso de no haber coincidencia se devolverá un string con la palabra false.
 
 ## Instrucciones
 - Crear un nuevo repositorio utilizando este repositorio como template (Boton: use this template).
@@ -47,5 +47,5 @@ npm run test
 ### Test 3  
 
 - **Parametros**: strArr = ["1, 3, 5, 7, 9", "2, 4, 6, 8"]  
-- **Resultado esperado**: ""
+- **Resultado esperado**: "false"
 ---

@@ -31,7 +31,7 @@ describe('findIntersection Challenge', () => {
     it('Test3', () => {
 
         let result = findIntersection(["1, 3, 5, 7, 9", "2, 4, 6, 8"])
-        let expected = ""
+        let expected = "false"
 
         assert.strictEqual(result,expected)
     })
