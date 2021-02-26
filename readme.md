@@ -37,12 +37,12 @@ npm run test
 ### Test 1  
 
 - **Parametros**: strArr = ["1, 3, 4, 7, 13", "1, 2, 4, 13, 15"]  
-- **Resultado esperado**: "1,4,13"
+- **Resultado esperado**: "1, 4, 13"
 ---
 ### Test 2  
 
 - **Parametros**: strArr = "1, 3, 9, 10, 17, 18", "1, 4, 9, 10"]  
-- **Resultado esperado**: "1,9,10"
+- **Resultado esperado**: "1, 9, 10"
 ---
 ### Test 3  
 

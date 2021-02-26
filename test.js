@@ -9,7 +9,7 @@ describe('findIntersection Challenge', () => {
     it('Test1', () => {
 
         let result = findIntersection(["1, 3, 4, 7, 13", "1, 2, 4, 13, 15"])
-        let expected = "1,4,13"
+        let expected = "1, 4, 13"
 
         assert.strictEqual(result,expected)
     })
@@ -20,7 +20,7 @@ describe('findIntersection Challenge', () => {
     it('Test2', () => {
 
         let result = findIntersection(["1, 3, 9, 10, 17, 18", "1, 4, 9, 10"])
-        let expected = "1,9,10"
+        let expected = "1, 9, 10"
 
         assert.strictEqual(result,expected)
     })
